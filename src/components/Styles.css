@@ -1,0 +1,32 @@
+
+.img_amizade {
+    width: 450px;
+}
+.container {
+    background-color:rgb(222, 249, 240) ;
+    padding-bottom: 30px;
+}
+.container_logo {
+    display: flex;
+    justify-content: right;
+}
+.title_main {
+    font-size: 20px;
+    text-align: center;
+    color: #222;
+}
+.container_imagens {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:770px){
+    .img_amizade {
+        width:200px;
+    }
+}
+.router_div {
+    display: flex;
+    gap: 20px;
+}

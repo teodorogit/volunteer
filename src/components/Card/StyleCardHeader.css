@@ -1,0 +1,12 @@
+.crd_div {
+    width: 250px;
+    /* box-shadow: 10px 10px 20px rgba(15, 4, 4, 0.202); */
+    border-bottom: 2px solid #cdcdcd;
+    border-top: 2px solid #cdcdcd;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+.img_card {
+    width: 100%;
+}

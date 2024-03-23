@@ -1,0 +1,17 @@
+.ctn_image {
+    width: 89%;
+    cursor: pointer;
+}
+
+.image_item {
+    width: 100%;
+}
+
+
+.map {
+    color: rgb(246, 154, 154);
+    border: none;
+}
+.map:hover {
+    filter: brightness(0.95);
+}

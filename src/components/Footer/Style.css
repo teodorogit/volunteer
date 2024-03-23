@@ -1,0 +1,47 @@
+.endereco svg {
+    width: 40px;
+}
+.endereco  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acrs {
+    border-radius: 5px;
+    border: 1px solid #111;
+    width: 50%;
+    margin: 0 auto;
+    height: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #222;
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+}
+.acrs:hover {
+    transform: scale(1.025)
+}
+.endereco a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #222;
+}
+#direitos {
+    text-align: center;
+    font-size: 18px;
+}
+.title {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 2.25rem;
+    color: #444444f5;
+}
+.container_footer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #DEF9F0;
+    height: 250px;
+    align-items: center;
+    margin-top: 50px;
+}

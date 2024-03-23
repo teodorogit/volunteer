@@ -1,0 +1,24 @@
+#examples {
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+
+.tab-contents {
+display:grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+width: 80vw;
+margin: 0 auto;
+flex-direction: column-reverse;
+}
+@media (max-width:770px){
+    .tab-contents {
+    grid-template-columns: 1fr;
+    text-align: start;
+    padding: 10px;
+}
+}
+.image_item {
+    width: 50%
+}
+

@@ -1,0 +1,99 @@
+.container_header {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin: 0 auto;
+align-items: center;
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+height: 100%;
+}
+
+.logo_maos {
+    display: none;
+}
+#title_pagina {
+    font-size: 22px;
+}
+.middle_ctn {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.icones {
+    height: 22px;
+    color: #222;
+}
+.container_header a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    color: #222;
+    font-weight: 500;
+    cursor: pointer;
+}
+.container_header a:hover {
+    border-bottom:2px solid antiquewhite;
+}
+@media (max-width:770px){
+    .container_header {
+        flex-direction: column;
+        justify-content:center;
+        height: 85vh;
+        overflow: hidden;
+    }
+    #title_pagina {
+        font-size: 18px;
+    }
+    .logo_maos {
+        position: absolute;
+        top:0px;
+        transform:rotate(180deg);
+        width: 200px;
+        display: flex;
+}
+    .contato {
+       margin-bottom: 40px;
+    }
+    .container_header a {
+        border-bottom:2px solid  antiquewhite;
+    }
+   
+    .whats {
+        border-bottom:2px solid  #0DC143 !important;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    
+}
+.logo {
+    width: 200px;
+}
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    color: #3d8317eb;;
+    font-weight: bold;
+}
+.opt {
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    margin: 10px;
+}
+.opt:focus {
+    outline: none;
+}
+#contato:hover {
+filter: opacity(0.9);
+    cursor: pointer;
+}

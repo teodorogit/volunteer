@@ -1,0 +1,20 @@
+.btn_voltar {
+    position: absolute;
+    width: 175px;
+    height: 50px;
+    right: 50%;
+    transform: translateX(50%);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    border: 0;
+    background-color: transparent;
+    border-bottom:1px solid cadetblue;
+    color: #333;
+    font-size: 18px;
+    text-decoration: none;
+}
+.btn_voltar:hover {
+    cursor: pointer;
+} 
